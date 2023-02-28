@@ -8,8 +8,9 @@ public class Main {
         int userInput = scanner.nextInt();
 
         while (userInput != 0) {
+            //обработка  разных случаев
 
-            printMenu();
+            printMenu(); //еще раз печатаем меню перед завершением прошлого действия
             userInput = scanner.nextInt();
         }
         System.out.println("Программа завершена");
